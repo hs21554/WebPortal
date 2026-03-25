@@ -1,0 +1,53 @@
+Technologies & Tools Used
+🔹Backend Framework:
+✔️ Developed using Python Flask Framework
+✔️ Flask is lightweight and ideal for building scalable web applications, Used for handling server-side logic, APIs, and routing
+🔹Frontend Technologies:
+HTML for structuring the web pages
+CSS for styling, layout, and responsive design
+JavaScript for better, structured, and safe client-side scripting
+Improved UI/UX with clean and interactive design
+🔹Database:
+PostgreSQL (Postgres) used as the primary database
+Integrated using Postgres.py / psycopg2 (Python library)
+Efficient for handling structured data and complex queries
+🔹 Portal Architecture
+Followed client-server architecture
+Frontend communicates with backend APIs built in Flask
+Backend processes requests and interacts with PostgreSQL database
+Data is fetched, processed, and returned in structured format (JSON)
+🔹 Core Functionalities
+📊 Data Analysis & Visualization
+Portal is designed to analyze large datasets
+Displays insights in structured format (tables, charts, summaries)
+🔍 Filtering & Search
+Dynamic filters applied using user inputs
+Helps in extracting specific records based on conditions
+⚙️ Dynamic Data Processing
+Backend performs calculations, aggregations, and transformations
+Optimized SQL queries for fast performance
+🔐 Data Management
+Stores and manages records securely in PostgreSQL
+Supports CRUD operations (Create, Read, Update, Delete)
+🔹 Working Flow of Portal
+User opens the web portal (frontend interface)
+User applies filters or requests data
+Request is sent to Flask backend via API
+Backend processes request and runs SQL queries on PostgreSQL
+Data is fetched and processed (analysis, calculations, etc.)
+Processed data is returned to frontend
+Frontend displays results in user-friendly format
+🔹 Key Features
+✔️ Fast and lightweight backend using Flask
+✔️ Clean and responsive UI using HTML/CSS
+✔️ Safe scripting with JavaScript
+✔️ Efficient database handling with PostgreSQL
+✔️ Scalable and modular code structure
+✔️ Real-time or near real-time data analysis
+🔹 Development Approach
+Designed database schema first (tables, relationships)
+Built backend APIs using Flask
+Integrated PostgreSQL with Python
+Developed frontend interface using HTML, CSS, and JavaScript
+Connected frontend with backend APIs
+Tested portal with real datasets for accuracy and performance
