@@ -1,0 +1,10 @@
+Flask
+SQLAlchemy
+flask_sqlalchemy
+pandas
+plotly
+matplotlib
+psycopg2-binary
+gspread
+oauth2client
+Werkzeug
